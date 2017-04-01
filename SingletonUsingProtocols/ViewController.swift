@@ -12,8 +12,8 @@ class ViewController: UIViewController, Resoursable {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         resouce().performOperation()
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
 }

@@ -8,16 +8,6 @@
 
 import Foundation
 
-protocol Resoursable {
-    func resouce() -> MyResource
-}
-
-extension Resoursable {
-    func resouce() -> MyResource {
-        return .default
-    }
-}
-
 class MyResource {
     
     static let `default`  = MyResource()
